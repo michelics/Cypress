@@ -1,0 +1,29 @@
+{
+  "name": "cy-framework",
+  "version": "1.0.0",
+  "description": "Cypress Framework",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michelics/cy-framework.git"
+  },
+  "keywords": [
+    "cypress",
+    "automation",
+    "testing"
+  ],
+  "author": "Micheli Cunha",
+  "license": "ISC",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:firefox": "cypress run --browser firefox",
+    "cy:update-snapshots": "cypress run --env updateSnaphots=true"
+  },
+  "dependencies": {
+    "cypress": "^5.0.0",
+    "cypress-image-snapshot": "^3.1.1",
+    "prettier": "^2.0.5"
+  }
+}
